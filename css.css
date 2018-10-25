@@ -37,6 +37,7 @@ div.spacer
 h1.tophead
 {
 font-size: 60px;
+color: #fff;
 }
 
 h2.toptext
@@ -52,26 +53,22 @@ font-size: 30px;
 
 }
 
-ul {
-    list-style-type: none;
-	text-align: center;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+
+a:link {
+    color: red;
 }
 
-li a {
-    display: block;
-	text-align: center;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
+/* visited link */
+a:visited {
+    color: green;
 }
 
-/* Change the link color on hover */
-li a:hover {
-	text-align: center;
-    background-color: #555;
-    color: white;
+/* mouse over link */
+a:hover {
+    color: darkred;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
